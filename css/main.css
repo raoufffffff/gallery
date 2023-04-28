@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
+    transition: all 0.5s linear;
+}
+
+:root {
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+a{
+    color: black;
+}
+
+/* start titel */
+.titl .switch{
+font-weight: bold;
+}
+
+
+
+.gallory-img{
+ cursor: pointer;
+  height: 100%;
+  width: 100%;
+}
+
+.gallory-img:hover{
+box-shadow: var(--dark-shadow);
+}
+
+.photo{
+  height: 350px;
+  overflow: hidden;
+}
+
+/* djedid */
+
+.focus{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+}
+
+.focus .focus-gallory{
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+      z-index: 1000000;
+
+}
+
+.focus-img{
+  height: 80%;
+  width: 70%;
+    z-index: 1000000;
+
+}
+
+
+.focus-main-img{
+  opacity: 0.3;
+  z-index: -1000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* 
+ */
+ .span{
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 30px;
+    z-index: 1000000000;
+}
+
+.left{
+    left: 20px;
+}
+
+.right{
+    right: 20px;
+}
+
+.dark{
+  color: black;
+}
